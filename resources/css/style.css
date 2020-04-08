@@ -1,0 +1,341 @@
+/*fonts*/
+
+@font-face {
+    src: url('../fonts/SEGOEUI.TTF');
+    font-family: SEGOEUI, sans-serif;
+}
+
+/*Basic setup*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: SEGOEUI, sans-serif;
+    font-size: 10px;
+    color: #000;
+    background: #fff;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+}
+
+.row {
+    max-width: 980px;
+    margin: auto;
+
+
+
+
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*header section css*/
+
+header {
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))),
+        url(img/bg3.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+        url(img/bg3.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+
+
+}
+
+.logo {
+    height: 100px;
+    padding-top: 80px;
+    color: #fff;
+
+
+}
+
+.text-box {
+    margin-top: 180px;
+    color: #fff;
+}
+
+.text-box h1 {
+    font-size: 800%;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.text-box p {
+    font-size: 180%;
+    color: #d4d4d5;
+    margin-top: 60px;
+}
+
+
+.text-box .fa-angle-down {
+    width: 25px;
+    height: 25px;
+    font-size: 200%;
+    margin-top: 100px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+
+
+
+
+}
+
+
+
+
+/*about section css*/
+.about {
+    background: url(img/about-bg.png)no-repeat center/cover;
+
+}
+
+.about p {
+    margin-top: 120px;
+    font-size: 250%;
+    color: #86898b;
+}
+
+.grid-container {
+    margin-top: 100px;
+}
+
+.grid-container h2 {
+    font-size: 800%;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.grid-col-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    padding-bottom: 120px;
+}
+
+.grid-col-3 p {
+    font-size: 180%;
+}
+
+.grid-col-3 .grid-col-item span {
+
+    font-size: 180%;
+    float: left;
+}
+
+
+
+.grid-col-3 .grid-col-item p {
+
+    margin-top: 50px;
+    float: left;
+    text-align: justify;
+}
+
+
+
+/*work section css*/
+.work {
+    background: #23232f;
+}
+
+.work h2 {
+    font-size: 800%;
+    padding-top: 120px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.work ul {}
+
+.work ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 30px 0px;
+
+
+
+}
+
+.work ul li a {
+    color: #d4d4d5;
+    font-size: 140%;
+}
+
+.work ul li a:hover {
+    text-decoration: underline;
+    color: #7b77c9;
+
+
+
+}
+
+.work-col-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+}
+
+.work-col-3 p {
+    color: #eaeaeb;
+    font-size: 210%;
+    margin-top: 30px;
+}
+
+.work-col-3 span {
+    color: #6d7590;
+    font-size: 140%;
+
+}
+
+.work-col-3 img:hover {
+    opacity: 0.5;
+
+}
+
+.work button {
+    width: 180px;
+    height: 50px;
+    background: #7b77c9;
+    color: #fff;
+    border: 1px solid #7b77c9;
+    border-radius: 5px solid;
+    margin: 80px 0px;
+}
+
+.work button:hover {
+    background: #7b77f9;
+}
+
+
+/*photography section css*/
+.pg {
+    background: url(img/about-bg.png) no-repeat center /cover;
+}
+
+.pg h2 {
+    font-size: 800%;
+    color: #464b4f;
+    margin-top: 100px;
+}
+
+.pg p {
+    font-size: 300%;
+    color: #888a8b;
+    margin: 50px 0;
+}
+
+
+.pg-col-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.pg button {
+    width: 180px;
+    height: 50px;
+    background: #7b77c9;
+    color: #fff;
+    border: 1px solid #7b77c9;
+    border-radius: 5px solid;
+    margin: 80px 0px;
+}
+
+
+/*infinity css*/
+
+.infinity {
+    background: #23232e;
+}
+
+
+.logo-infinity {
+    padding-top: 100px;
+
+}
+
+.infinity p {
+    font-size: 180%;
+    color: #fff;
+    margin: 80px 0;
+    line-height: 1.5;
+
+}
+
+.infinity input[type='email'] {
+    width: 350px;
+    height: 50px;
+    border-radius: 5px solid #fff;
+    color: #7b77c9;
+    font-size: 180%;
+    margin-right: 20px;
+
+}
+
+.infinity input[type='text'] {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #7b77c9;
+    border-radius: 5px solid;
+    font-size: 180%;
+    background: #7b77c9;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+form {
+    padding-bottom: 100px;
+
+}
+
+
+/*footer css*/
+footer {
+    background: url(img/about-bg.png) no-repeat center /cover;
+
+
+
+}
+
+footer .icons {
+    font-size: 30px;
+    margin: 100px 0;
+}
+
+footer .icons a i {
+    padding: 20px;
+    color: #dbdbdb;
+}
+
+footer .icons a i:hover {
+    color: #000;
+    background: #fff;
+
+
+}
+
+footer .copy-right {
+    font-size: 180%;
+    line-height: 1.5;
+    color: #a5a5a5;
+    margin-bottom: 100px;
+}

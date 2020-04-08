@@ -1,0 +1,294 @@
+@media only screen and (max-width: 480px) {
+    /*header section css*/
+
+    header {
+        background: rgba(12, 13, 11, 0.5)url(img/bg3.jpg) no-repeat center/cover;
+        height: 100vh;
+    }
+
+    .logo {
+        height: 70px;
+        padding-top: 60px;
+        color: #fff;
+
+
+    }
+
+    .text-box {
+        margin-top: 180px;
+        color: #fff;
+    }
+
+    .text-box h1 {
+        font-size: 400%;
+        color: #fff;
+        text-transform: uppercase;
+
+    }
+
+    .text-box p {
+        font-size: 140%;
+        color: #d4d4d5;
+        margin-top: 60px;
+    }
+
+
+    .text-box .fa-angle-down {
+        width: 25px;
+        height: 25px;
+        font-size: 200%;
+        margin-top: 130px;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 50%;
+
+
+
+
+    }
+
+
+
+
+
+    /*about section css*/
+
+    about {
+        background: url(img/about-bg.png)no-repeat center/cover;
+    }
+
+    .about p {
+
+        font-size: 200%;
+        color: #86898b;
+        margin: 40px 15px;
+    }
+
+    .grid-container {
+        margin-top: 80px;
+    }
+
+    .grid-container h2 {
+        font-size: 400%;
+        text-transform: uppercase;
+        margin-bottom: 80px;
+    }
+
+    .grid-col-3 {
+        display: grid;
+        grid-template-columns: auto;
+
+
+    }
+
+    .grid-col-3 p {
+        font-size: 150%;
+        margin: 5px 20px;
+    }
+
+
+    .grid-col-3 .grid-col-item span {
+
+        font-size: 180%;
+        float: left;
+        margin: 15px;
+    }
+
+
+
+    .grid-col-3 .grid-col-item p {
+
+        margin-top: 50px;
+        float: left;
+        text-align: justify;
+    }
+
+
+    /*work section css*/
+    .work {
+        background: #23232f;
+    }
+
+    .work h2 {
+        font-size: 400%;
+        padding-top: 120px;
+        color: #fff;
+        font-weight: 800;
+    }
+
+    .work ul {}
+
+    .work ul li {
+        display: inline-block;
+        padding: 5px;
+        margin: 30px 0px;
+
+
+
+    }
+
+    .work ul li a {
+        color: #d4d4d5;
+        font-size: 100%;
+    }
+
+    .work ul li a:hover {
+        text-decoration: underline;
+        color: #7b77c9;
+
+
+
+    }
+
+    .work-col-3 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 40px;
+    }
+
+    .work-col-3 p {
+        color: #eaeaeb;
+        font-size: 210%;
+        margin-top: 30px;
+    }
+
+    .work-col-3 span {
+        color: #6d7590;
+        font-size: 140%;
+
+    }
+
+    .work-col-3 img:hover {
+        opacity: 0.5;
+
+    }
+
+    .work button {
+        width: 70px;
+        font-size: 100%;
+        margin: 20px 5px;
+
+    }
+
+    /*photography section css*/
+    .pg h2 {
+        font-size: 400%;
+        color: #464b4f;
+        margin-top: 100px;
+
+    }
+
+    .pg p {
+        font-size: 200%;
+        color: #888a8b;
+        margin: 50px 20px;
+
+    }
+
+
+    .pg-col-3 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+    }
+
+    .pg button {
+        width: 180px;
+        height: 50px;
+        background: #7b77c9;
+        color: #fff;
+        border: 1px solid #7b77c9;
+        border-radius: 5px solid;
+        margin: 80px 0px;
+    }
+
+    /*infinity css*/
+
+    .infinity {
+        background: #23232e;
+    }
+
+
+    .logo-infinity {
+        padding-top: 100px;
+
+    }
+
+    .infinity p {
+        font-size: 140%;
+        color: #fff;
+        margin: 50px 10px;
+        line-height: 1.5;
+
+
+    }
+
+    .infinity input[type='email'] {
+        width: 150px;
+        height: 30px;
+        border-radius: 5px solid #fff;
+        color: #7b77c9;
+        font-size: 140%;
+        margin-right: 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+
+    }
+
+    .infinity input[type='text'] {
+        width: 100px;
+        height: 30px;
+        border: 1px solid #7b77c9;
+        border-radius: 5px solid;
+        font-size: 140%;
+        background: #7b77c9;
+        color: #fff;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+
+
+
+    }
+
+    form {
+        padding-bottom: 50px;
+    }
+
+    /*footer css*/
+    footer {
+        background: url(img/about-bg.png) no-repeat center /cover;
+
+    }
+
+    footer .icons {
+        font-size: 30px;
+        margin: 70px 0;
+    }
+
+    footer .icons a i {
+        padding: 10px;
+        color: #dbdbdb;
+    }
+
+    footer .icons a i:hover {
+        color: #000;
+        background: #fff;
+
+
+    }
+
+    footer .copy-right {
+        font-size: 140%;
+        line-height: 1.5;
+        color: #a5a5a5;
+        margin-bottom: 70px;
+    }
+
+
+
+
+
+
+}
